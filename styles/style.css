@@ -370,7 +370,6 @@ strong {
 }
 .list:hover {
     filter: none;
-    border-image-outset: 30px;
     transition: ease-in-out 0.4s;
 }
 .lists {
@@ -380,6 +379,9 @@ strong {
     margin-left: 240px;
     margin-right: 240px;
     margin-bottom: 130px;
+}
+.lists img {
+    width: 150px;
 }
 .lists:hover {
     display: flex;
@@ -538,6 +540,7 @@ strong {
     .lists {
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin: 0;
     }
     .lists:hover {
@@ -545,8 +548,7 @@ strong {
         flex-direction: column;
     }
     .lists img {
-        margin-bottom: 15px;
-        padding: 15px;
+        margin-bottom: 35px;
     }
     .copyright {
         padding: 0;
