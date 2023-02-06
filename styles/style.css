@@ -48,9 +48,7 @@ li:hover {
 .g3:hover {
     color: cornflowerblue;
     font-size: 50px;
-    /* text-transform: capitalize; */
     text-shadow: #ff900e;
-    /* transform: rotate(360deg); */
     transition: ease-in 0.9s;
 }
 .header-button {
@@ -334,6 +332,54 @@ strong {
      Facts Box end
  ************************/
 
+/**********************************
+     Sister Concern  Services Start
+ **********************************/
+/* .sister-concern {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 250px;
+} */
+.all-sisters {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-bottom: 180px;
+}
+.sister {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 250px;
+}
+.sister-info {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+}
+.g-group img {
+    height: 50px;
+}
+.g-group {
+    width: 190px;
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    padding: 48px 36px;
+    text-align: center;
+}
+.g-group:hover {
+    background-color: deepskyblue;
+    color: #ffffff;
+}
+/**********************************
+     Sister Concern  Services End
+ **********************************/
+
 /***********************
      Sponsors Start
  ************************/
@@ -532,6 +578,41 @@ strong {
         align-items: center;
         margin: 0;
         padding: 10px;
+    }
+
+    .companies {
+        padding: 10px 10px;
+    }
+
+    .all-sisters {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 10px;
+    }
+    .sister {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+        font-size: 45px;
+        margin: 0;
+    }
+    .sister-info {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin: 0;
+    }
+    .g-group img {
+        height: 50px;
+    }
+    .g-group {
+        width: 190px;
+        border: 1px solid #ff900e;
+        border-radius: 8px;
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 10px;
     }
 
     .sponsor:hover {
